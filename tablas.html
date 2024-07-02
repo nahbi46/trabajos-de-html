@@ -14,83 +14,71 @@
 <title>Document</title>
 </head>
 <body>
-<H2>TABLAS EN HTML</H2>
+<!-- Tablas Simple -->
+<H2>Tablas Simple</H2>
 <table>
 <tr>
-<th>Encabezado 1</th>
-<th>Encabezado 2</th>
+<th>Datos1</th>
+<th>Datos2</th>
 </tr>
 <tr>
-<td>Dato 1</td>
-<td>Dato 2</td>
+<td>agua</td>
+<td>fuego</td>
 </tr>
 </table>
-<!--EJEMPLO DE TABLA SENCILLA-->
-<H2>EJEMPLO DE TABLA SENCILLA</H2>
-<table>
+<!-- Producto, Calidad, Precio -->
+<h2>Producto, Calidad, Preci</h2>
+<table border="1" cellpadding="3" cellspacing="0">
+<tr>
+<th>Producto</th>
+<th>Cantidad</th>
+<th>Precio</th>
+</tr>
+<tr>
+<td>collar</td>
+<td>2</td>
+<td>2.500 c/u</td>
+</tr>
+<tr>
+<td>pulsera</td>
+<td>1</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td>anillo</td>
+<td>4</td>
+<td>1.000 c7u</td>
+ </tr>
+</table>
+<!-- Pie de Pagina-->
+<H2> Pie de Pagina </H2>
+<table border="1" cellpadding="3" cellspacing="0">
+
 <tr>
 <th>Nombre</th>
 <th>Edad</th>
-</tr>
+</tr> 
+
 <tr>
 <td>Juan</td>
 <td>25</td>
 </tr>
+
 <tr>
 <td>María</td>
 <td>30</td>
 </tr>
-</table>
-<!-- ATRIBUTOS DE LAS TABLAS -->
-<h2>ATRIBUTOS DE LAS TABLAS</h2>
-<table border="1" cellpadding="5" cellspacing="0">
+
 <tr>
-<th>Nombre</th>
-<th>Edad</th>
-Materia: Programación IV
-Docente: Verónica Godoy
-Curso: 7mo
+<td colspan="4">Total de Filas: 2</td>
 </tr>
-<tr>
-<td>Juan</td>
-<td>25</td>
-</tr>
-<tr>
-<td>María</td>
-<td>30</td>
-</tr>
-</table>
-<!-- CABECERA, CUERPO Y PIE DE TABLA-->
-<H2> CABRCERA, CUERPO Y PIE DE TABLA</H2>
-<table border="1">
-<thead>
-<tr>
-<th>Nombre</th>
-<th>Edad</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Juan</td>
-<td>25</td>
-</tr>
-<tr>
-<td>María</td>
-<td>30</td>
-</tr>
-</tbody>
-<tfoot>
-<tr>
-<td colspan="2">Total de Filas: 2</td>
-</tr>
-</tfoot>
-</table>
+
 <!-- COMBINAR CELDAS -->
 <H2> COMBINAR CELDAS </H2>
-<table border="1">
+<table border="">
 <tr>
 <th>Nombre</th>
-<th colspan="2">Detalles</th>
+<th colspan="">Detalles</th>
 </tr>
 <tr>
 <td>Juan</td>
@@ -101,7 +89,7 @@ Curso: 7mo
 <td>25</td>
 </tr>
 <tr>
-<td rowspan="2">María</td>
+<td rowspan="">María</td>
 <td>Edad</td>
 <td>30</td>
 </tr>
